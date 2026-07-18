@@ -1,0 +1,7 @@
+name: sample
+services:
+- name: ssvpn
+  git:
+    repo_clone_url: https://github.com/xkjyeah/shadowsocks-heroku.git
+    branch: main
+  dockerfile_path: Dockerfile
